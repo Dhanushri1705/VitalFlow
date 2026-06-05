@@ -1,7 +1,8 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
+  base: '/', 
   build: {
-    outDir: 'dist', // Tells Vite to use 'dist' instead of '.output'
+    outDir: 'dist', 
   },
 });
