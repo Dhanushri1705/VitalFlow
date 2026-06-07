@@ -40,7 +40,7 @@ function LoginPage() {
     nav({ to: "/dashboard" });
   };
 
-  // FIX: Lovable-ku bathila direct Supabase logic inga iruku
+  
   const handleGoogle = async () => {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
